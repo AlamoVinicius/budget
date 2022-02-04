@@ -6,22 +6,38 @@ function Footer() {
     <footer className={styles.footer}>
       <ul className={styles.social_list}>
         <li>
-          <a href="https://www.facebook.com/alamo.vinicius.5" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.facebook.com/alamo.vinicius.5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebook />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/alamovsouza/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/alamovsouza/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/alamovinicius/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/alamovinicius/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin />
           </a>
         </li>
         <li>
-          <a href="https://github.com/AlamoVinicius" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/AlamoVinicius"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
         </li>

@@ -6,7 +6,7 @@ import SubmitButton from "../form/SubmitButton";
 
 import styles from "./ProjectForm.module.css";
 
-function ProjectForm({handleSubmit, btnText, projectData}) {
+function ProjectForm({ handleSubmit, btnText, projectData }) {
   const [categories, setCategories] = useState([]);
   const [project, setProject] = useState(projectData || {});
 
@@ -26,21 +26,23 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
   }, []);
 
   const submit = (e) => {
-    e.preventDefault()   //método que ira prevenir o reload do formulario
+    e.preventDefault(); //método que ira prevenir o reload do formulario
     //console.log(project)
-    handleSubmit(project)
-  }
+    handleSubmit(project);
+  };
 
   function handleChange(e) {
-    setProject({...project, [e.target.name]: e.target.value})
+    setProject({ ...project, [e.target.name]: e.target.value });
   }
 
   function handleCategory(e) {
-    setProject({...project, category: {
-      id: e.target.value,
-      name: e.target.options[e.target.selectedIndex].text,
-    },
-    })
+    setProject({
+      ...project,
+      category: {
+        id: e.target.value,
+        name: e.target.options[e.target.selectedIndex].text,
+      },
+    });
   }
 
   return (
@@ -51,7 +53,7 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
         name="name"
         placeholder="insira o nome do projeto"
         handleOnChange={handleChange}
-        value={project.name ? project.name : ''}
+        value={project.name ? project.name : ""}
       />
       <Input
         type="number"
@@ -59,14 +61,14 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
         name="budget"
         placeholder="insira o Valor total"
         handleOnChange={handleChange}
-        value={project.budget ? project.budget : ''}
+        value={project.budget ? project.budget : ""}
       />
       <Select
         name="category_id"
         text="selecione a categoria"
         options={categories}
         handleOnChange={handleCategory}
-        value={project.category ? project.category.id : ''}
+        value={project.category ? project.category.id : ""}
       />
       <SubmitButton text={btnText} />
     </form>

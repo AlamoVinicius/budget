@@ -76,6 +76,28 @@
       "cost": 0,
       "services": [],
       "id": 7
+    },
+    {
+      "name": "teste de resposivitidade",
+      "budget": "2300000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "name": "ultimo teste do dia",
+      "budget": "3243242",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 9
     }
   ],
   "categories": [

@@ -4,8 +4,7 @@
     border-radius: 15px;
     width: 30%;
     margin: .5%;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .project_card h4 {
@@ -91,33 +90,51 @@
     color: #ffbb33;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     .project_card {
-        width: 47%;
-        margin: .5em;
-    }
-}
-
-@media (max-width: 430px) {
-    .project_card {
-        width: 300px;
-        margin: .5em;
+        width: 250px;
+        margin: .2em auto;
+        
     }
 
     .project_card_actions a,
     .project_card_actions button {
         width: auto;
+        margin: auto;
+        margin-top: .5em;
     }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 469px) {
     .project_card {
-        width: auto;
-        margin: .5em;
+        width: 45%;
+    }
+
+    .project_card_actions {
+        flex-direction: column;
     }
 
     .project_card_actions a,
     .project_card_actions button {
-        width: auto;
+        width: 100px;
+        margin: auto;
+        margin-top: .5em;
+    }
+
+    
+}
+
+@media (max-width: 400px) {
+    .project_card {
+        margin: auto;
+        width: 80%;
+        margin-top: .5em;
+    }
+
+    .project_card_actions a,
+    .project_card_actions button {
+        width: 80%;
+        margin: auto;
+        margin-bottom: .5em;
     }
 }

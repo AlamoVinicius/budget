@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "teste1",
-      "budget": "25000",
+      "budget": "20000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -10,94 +10,6 @@
       "cost": 0,
       "services": [],
       "id": 1
-    },
-    {
-      "name": "teste2",
-      "budget": "240000.00",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "teste3",
-      "budget": "452332",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "sei la",
-      "budget": "1500000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "construção hospital ",
-      "budget": "2222222",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "teste de qualidade",
-      "budget": "2500",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "Implementação de novos recursos para o conôminio 532",
-      "budget": "120000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "teste de resposivitidade",
-      "budget": "2300000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "ultimo teste do dia",
-      "budget": "3243242",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
     }
   ],
   "categories": [

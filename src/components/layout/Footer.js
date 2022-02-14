@@ -34,7 +34,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="https://github.com/AlamoVinicius"
+            href="https://github.com/AlamoVinicius/budget"
             target="_blank"
             rel="noopener noreferrer"
           >

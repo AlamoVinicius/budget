@@ -78,6 +78,7 @@
     align-items: center;
     justify-content: center;
     transition: .5s;
+    border-radius: 20px;
 }
 
 .project_card_actions svg {

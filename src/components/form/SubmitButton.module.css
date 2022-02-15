@@ -12,7 +12,7 @@
     font-family: inherit;
     color: #111;
     cursor: pointer;
-    margin-left: 25%;
+    max-height: 50px;
   }
   
   .btn::before {

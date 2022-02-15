@@ -1,15 +1,101 @@
 {
   "projects": [
     {
-      "name": "projeto teste 2",
+      "name": "projeto teste 22",
       "budget": "20000.00",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 5,
+      "services": [
+        {
+          "name": "custo 1 teste",
+          "cost": "1",
+          "description": "gasto 1 de teste",
+          "id": "9d4693e4-ff51-4d2e-8edf-f5ed75e6a846"
+        },
+        {
+          "name": "custo 2 teste",
+          "cost": "1",
+          "description": "gasto 2 de teste",
+          "id": "f6ebd2c2-52eb-4c5b-bbd5-cefed234ac86"
+        },
+        {
+          "name": "custo 3 de testes",
+          "cost": "1",
+          "description": "sei la",
+          "id": "7b46d6c8-c0d2-49b5-8239-5618a97428ec"
+        },
+        {
+          "name": "teste 4",
+          "cost": "1",
+          "description": "outra vez sei la",
+          "id": "f0ef4fc9-18b0-4869-893f-8f76e3a07c98"
+        },
+        {
+          "name": "tentando extrapolar novamente",
+          "cost": "1",
+          "description": "Construção da nova sede da companhia",
+          "id": "7bb4e9bf-305c-414c-ac1e-50ad8144cd4d"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "teste 03",
+      "budget": "2000000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "projeto atualizado 2",
+      "budget": "222221",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "testando novamente",
+      "budget": "2222",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "criando mais 1 ",
+      "budget": "22222",
       "category": {
         "id": "4",
         "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
-      "id": 2
+      "id": 6
+    },
+    {
+      "name": "nunca podemos parar/ não devemos",
+      "budget": "222122",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [

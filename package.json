@@ -1,6 +1,7 @@
 {
   "name": "budget",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "backend": "json-server --watch db.json --port 5000",
+    "backend": "json-server https://my-json-server.typicode.com/AlamoVinicius/backendBudget",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

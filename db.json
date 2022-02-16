@@ -1,174 +1,40 @@
 {
   "projects": [
     {
-      "name": "projeto teste 23",
-      "budget": "20000.00",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 10010,
-      "services": [
-        {
-          "name": "custo 1 teste",
-          "cost": "1",
-          "description": "gasto 1 de teste",
-          "id": "9d4693e4-ff51-4d2e-8edf-f5ed75e6a846"
-        },
-        {
-          "name": "custo 2 teste",
-          "cost": "1",
-          "description": "gasto 2 de teste",
-          "id": "f6ebd2c2-52eb-4c5b-bbd5-cefed234ac86"
-        },
-        {
-          "name": "custo 3 de testes",
-          "cost": "1",
-          "description": "sei la",
-          "id": "7b46d6c8-c0d2-49b5-8239-5618a97428ec"
-        },
-        {
-          "name": "teste 4",
-          "cost": "1",
-          "description": "outra vez sei la",
-          "id": "f0ef4fc9-18b0-4869-893f-8f76e3a07c98"
-        },
-        {
-          "name": "tentando extrapolar novamente",
-          "cost": "1",
-          "description": "Construção da nova sede da companhia",
-          "id": "7bb4e9bf-305c-414c-ac1e-50ad8144cd4d"
-        },
-        {
-          "name": "teste de custos",
-          "cost": "10000",
-          "description": "ssss",
-          "id": "672bf335-7d78-4da9-89a1-bae45c9cf261"
-        },
-        {
-          "name": "testando novamenteeeee",
-          "cost": "1",
-          "description": "isso ai ",
-          "id": "9785e2a4-64b0-47b3-930e-e80f23dbed5f"
-        },
-        {
-          "name": "isso ae",
-          "cost": "4",
-          "description": "isto daqui",
-          "id": "5ad53375-8ae4-4bbd-884c-4c9d53865f9a"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "teste 03",
-      "budget": "2000000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "projeto atualizado 2",
-      "budget": "222221",
+      "name": "projeto 1",
+      "budget": "10000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
-      "id": 4
+      "cost": 5000,
+      "services": [
+        {
+          "name": "custo 1",
+          "cost": "5000",
+          "description": "custo 1",
+          "id": "6079053b-680d-4217-91ee-525fbde0bfea"
+        }
+      ],
+      "id": 1
     },
     {
-      "name": "testando novamente",
-      "budget": "2222",
+      "name": "projeto 22",
+      "budget": "12000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "criando mais 0",
-      "budget": "2122222",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 1351945,
+      "cost": 4000,
       "services": [
         {
-          "name": "serviço 1",
-          "cost": "9999",
-          "description": "isso ae",
-          "id": "f2a57f21-a6fb-4377-9e00-0560d08d5553"
-        },
-        {
-          "name": "teste",
-          "cost": "18823",
-          "description": "dfsfds",
-          "id": "e0bc2196-b0a2-4459-b6b2-2faabb6c90b3"
-        },
-        {
-          "name": "dfsafds",
-          "cost": "123123",
-          "description": "Construção da nova sede da companhia",
-          "id": "ae7896f5-00c7-4b28-954a-a1babfdf6b97"
-        },
-        {
-          "name": "stfcbr-python",
-          "cost": "1200000",
-          "description": "afsdf",
-          "id": "3e150acb-1efb-4d93-af24-4fd8572bc217"
+          "name": "custo 1 do segundo serviço",
+          "cost": "4000",
+          "description": "custos",
+          "id": "02d2ec1c-52bc-4a7f-abdd-8ce9b8cdfffe"
         }
       ],
-      "id": 6
-    },
-    {
-      "name": "nunca podemos parar/ não devemos",
-      "budget": "222122",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "Projeto sei la o que isso hehe",
-      "budget": "10000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 2122,
-      "services": [
-        {
-          "name": "contratou o pedreiro",
-          "cost": "2000",
-          "description": "sdasdad",
-          "id": "78cc66d8-1a76-4458-8b9f-02241af3fb63"
-        },
-        {
-          "name": "tentando novametne",
-          "cost": "12",
-          "description": "adsffds",
-          "id": "48fcbccd-f586-4bdb-87c5-e0260a7b2b26"
-        },
-        {
-          "name": "só mais um teste eu prometo heehehe",
-          "cost": "110",
-          "description": "isso ae meu bem",
-          "id": "203f0891-526e-48a8-b95f-2d99aad29597"
-        }
-      ],
-      "id": 8
+      "id": 2
     }
   ],
   "categories": [

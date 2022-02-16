@@ -12,7 +12,7 @@ function NewProject() {
     project.cost = 0;
     project.services = [];
 
-    fetch("http://localhost:5000/projects", {
+    fetch("https://my-json-server.typicode.com/AlamoVinicius/backendBudget/projects", {
       method: "POST",
       headers: {
         "content-type": "application/json",

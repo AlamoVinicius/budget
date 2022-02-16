@@ -12,7 +12,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
   useEffect(() => {
     //useeffect faz com o que o react não envie milhares de requests para o db
-    fetch("http://localhost:5000/categories", {
+    fetch("https://my-json-server.typicode.com/AlamoVinicius/backendBudget/categories", {
       method: "GET",
       headers: {
         "content-type": "application/json",

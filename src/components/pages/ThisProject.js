@@ -40,7 +40,7 @@ function ThisProject() {
   }, [id]);
 
   function editPost(project) {
-    setMessage('')
+    setMessage("")
     // budget validation
     if (project.budget < project.cost) {
       setMessage('O orçamento não pode ser menor que o custo do projeto!')
@@ -65,7 +65,7 @@ function ThisProject() {
   }
 
   function createService(project) {
-    setMessage('')
+    setMessage("")
     // last service
     const lastService = project.services[project.services.length - 1]
 
@@ -100,7 +100,33 @@ function ThisProject() {
       .catch(err => console.log(err))
   }
 
-  function removeService () {}
+  function removeService ( id, cost) {
+
+    const servicesUpdated = project.services.filter(
+      (service) => service.id !== id
+    )
+
+    const projectUpdated = project
+
+    projectUpdated.services = servicesUpdated
+    projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+
+    fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+      method: 'PATCH',
+      headers: {
+        'content-Type': 'application/json'
+      },
+      body: JSON.stringify(projectUpdated)
+    }).then((resp) => resp.json())
+    .then((data) => {
+      setProject(projectUpdated)
+      setServices(servicesUpdated)
+      setMessage('Serviço removido com sucesso!')
+      setType('success')
+    })
+    .catch(err => console.log(err))
+
+  }
 
   function toggleProjectForm() {
     setShowProjectForm(!showProjectForm);

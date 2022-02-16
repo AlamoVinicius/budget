@@ -16,7 +16,7 @@
  
  `npm run backend` Após isso podera integrar a aplicação com o JSON server e poderá editar os dados do banco de Dados no `db.json` através da aplicação localmente.
  
- - [teste da aplicação](https://budget-app.alamovinicius.repl.co/projects). Como a aplicação neste link está integrada a um arquivo db.json no meu gitHub, O method: 'POST' sem realizar os passos
+ - [teste da aplicação](https://budget-app.alamovinicius.repl.co). Como a aplicação neste link está integrada a um arquivo db.json no meu gitHub, O method: 'POST' sem realizar os passos
  anteriores você não irá poder criar novos projetos na aplicação, porém irá poder observar o state ao editar, excluir e inserir novos custos na aplicação. ao recarregar o projeto irá
  carregar os dados presentes db.json do meu repositório novamente. mas os processos de CRUD não devem ser desconsiderados pois estão presente no proojeto e serão melhor desenvolvido futuramente.
  

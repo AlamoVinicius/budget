@@ -2,7 +2,7 @@
 
 ## Seja bem vindo ao sistema budget.
  
- - Aplicação desenvolvia em React Para demonstração de Interface de usuários, e consumo de um banco de dados estático.
+ - Aplicação desenvolvida em React Para demonstração de Interface de usuários, e consumo de um banco de dados.
  - Para alterar o projeto e usar o JSON Server localmente altere **package.json**:
  
  ~~~
